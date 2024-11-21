@@ -1,0 +1,12 @@
+{
+  "name": "rsp-soft-remb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "fix-folding": "./script/fix-folding.js",
+    "buildep-packages": "./script/buildep-packages.sh"
+  },
+  "author": "@ropsoft",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Windows
+Exec=@PROJECT_ID@
+Icon=@PROJECT_APPSTREAM_ID@
+Categories=Settings;DesktopSettings;Qt;RSp;
+OnlyShowIn=RSp;

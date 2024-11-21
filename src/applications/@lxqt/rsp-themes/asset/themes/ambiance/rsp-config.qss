@@ -1,0 +1,143 @@
+/* Configuration Center
+Theming by the base Qt widget style and palette */
+
+QToolTip {
+    border: 1px solid palette(text);
+    background: palette(window);
+    color: palette(text);
+    padding: 4px;
+    margin: 0px;
+    border: 1px solid palette(text);
+    border-radius: 3px;
+}
+
+
+/* Ajusta as abas no QTabWidget */
+
+QTabBar::tab {
+     margin-top: 1.5px;
+     padding: 6px;
+     padding-top: 9px;
+     padding-bottom: 9px;
+     border: 1px solid #4e5452;
+     border-left: none;
+     border-bottom: none;
+     border-radius: 1px;
+}
+
+/* Estilo para QLineEdit (barra de pesquisa e campo de texto) */
+QLineEdit {
+    color: #f5f5f5; /* Cor do texto */
+    border: 1px solid #4e5452; /* Borda semi-clara */
+    border-left: 0;
+    border-bottom: 0;
+    padding: 6px; /* Espaçamento interno */
+    border-radius: 1px; /* Bordas arredondadas */
+}
+
+/* Efeito ao focar no campo de texto */
+QLineEdit:focus {
+    border: 1px solid #0078d7; /* Cor da borda ao focar */
+}
+
+/* Estilo para QLineEdit (campo de filtro) */
+QLineEdit#filterLineEdit {
+    background-color: #3c3f41; /* Cor de fundo do campo de filtro */
+    color: #f8f8f2; /* Cor do texto */
+    border: 1px solid #4e5452; /* Borda semi-clara */
+    padding: 4px; /* Espaçamento interno */
+    border-radius: 3px; /* Bordas arredondadas */
+}
+
+/* Efeito ao focar no campo de filtro */
+QLineEdit#filterLineEdit:focus {
+    border: 1px solid #0078d7; /* Cor da borda ao focar */
+}
+
+/* Estilo para o placeholder (texto de sugestão) */
+QLineEdit#filterLineEdit::placeholder {
+    color: #a6a6a6; /* Cor do texto placeholder */
+}
+
+/* Estilo para QLineEdit (campo de filtro com texto selecionado) */
+QLineEdit#filterLineEdit:selected {
+    background-color: #0078d7; /* Cor de fundo ao selecionar texto */
+    color: #ffffff; /* Cor do texto ao selecionar */
+}
+
+QComboBox {
+    margin: 3px;
+    padding: 6px;
+    padding-bottom: 10px;
+    border-top: 1px solid #4e5452;
+    background-color: rgba(0,0,0,0.15);
+}
+
+/* Estilo para barras de ferramentas (QToolBar) 
+QToolBar {
+    margin: 6px; /* Margem ao redor da toolbar */
+    margin-top: 1px; 
+    margin-left: 1px;
+    spacing: 3px; /* Espaçamento entre os itens na toolbar */
+} */
+
+/* Ícones e botões na toolbar 
+QToolButton {
+    /* background-color: rgba(0,0,0,0.3); */
+    padding: 3px; /* Espaço interno ao redor dos ícones/botões */
+    margin: 6px; /* Margem ao redor da toolbar */
+    margin-left: 1px;
+}*/
+
+QToolBar {
+      border-bottom: 0;
+      margin-bottom: 14px;
+}
+
+/* Estilo para a QMenuBar (barra de menu) */
+QMenuBar {
+    padding: 6px; /* Espaçamento interno */
+    margin-bottom: 9px;
+    padding-left: 1px;
+    background-color: transparent; /* Fundo transparente para itens */
+}
+
+/* Estilo para os itens de menu */
+QMenuBar::item {
+    color: #f5f5f5; /* Cor do texto dos itens */
+    background-color: transparent; /* Fundo transparente para itens */
+    padding: 9px; /* Espaçamento interno dos itens */
+    margin-bottom: 3px;
+}
+
+/* Estilo para QMenu (menu dropdown) */
+QMenu {
+    color: #f5f5f5;
+    border: 1px solid #4e5452; /* Borda do menu dropdown */
+    padding: 6px; /* Espaçamento interno */
+}
+
+/* Estilo para itens de menu no QMenu */
+QMenu::item {
+    padding: 6px; /* Espaçamento interno dos itens no dropdown */
+    color: #f5f5f5; /* Cor do texto dos itens */
+}
+
+/* Efeito ao passar o mouse sobre itens de menu no QMenu */
+QMenu::item:hover {
+    background-color: #0078d7; /* Fundo ao passar o mouse */
+    color: #ffffff; /* Cor do texto ao passar o mouse */
+}
+
+/* Item selecionado no QMenu */
+QMenu::item:selected {
+    background-color: #0078d7; /* Fundo do item selecionado */
+    color: #ffffff; /* Cor do texto do item selecionado */
+}
+
+/* Separadores no QMenu */
+QMenu::separator {
+    height: 1px; /* Altura do separador */
+    background-color: #4e5452; /* Cor do separador */
+    margin: 4px 0; /* Margem acima e abaixo do separador */
+}
