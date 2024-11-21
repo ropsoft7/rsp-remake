@@ -3,7 +3,7 @@
 echo Deleting existing ./proj directory within 7sec...
 echo Tap CONTROL + C to cancel it now!
 
-sleep 7;
+sleep 3;
 
 rm -rf ./proj
 

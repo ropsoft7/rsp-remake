@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "fix-folding": "./script/fix-folding.js",
-    "buildep-packages": "./script/buildep-packages.sh"
+    "start": "cd ./script && make"
   },
   "author": "@ropsoft",
   "license": "ISC",

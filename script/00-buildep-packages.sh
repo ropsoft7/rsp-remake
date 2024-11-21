@@ -33,9 +33,10 @@ sudo apt build-dep -y lxqt-config
 sudo apt build-dep -y lxqt-globalkeys
 sudo apt build-dep -y lxqt-notificationd
 sudo apt build-dep -y lxqt-panel
-sudo apt build-dep -y rsp-session
-sudo apt build-dep -y rsp-sudo
-sudo apt build-dep -y rsp-themes
+sudo apt build-dep -y lxqt-session
+sudo apt build-dep -y lxqt-sudo
+sudo apt build-dep -y lxqt-themes
+sudo apt build-dep -y qterminal
 
 # first level apps
 

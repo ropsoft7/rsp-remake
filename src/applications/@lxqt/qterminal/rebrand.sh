@@ -5,12 +5,14 @@ HERE="`dirname "$HERE_WRAPPER"`"
 
 cd $HERE/proj
 
-/usr/local/bin/rsp.projectRebrandir skippy-xd winskip
-
 /usr/local/bin/rsp.projectRebrandir lxqt rsp
 /usr/local/bin/rsp.projectRebrandir Lxqt Rsp
 /usr/local/bin/rsp.projectRebrandir LXQt RSp
 /usr/local/bin/rsp.projectRebrandir LXQT RSP
 
-exit 0;
+/usr/local/bin/rsp.projectRebrandir labwc compify
+/usr/local/bin/rsp.projectRebrandir Labwc Compify
+/usr/local/bin/rsp.projectRebrandir LABWc COMPIFy
+/usr/local/bin/rsp.projectRebrandir LABWC COMPIFY
 
+exit 0;
