@@ -1,9 +1,9 @@
 {
-  "name": "rsp-soft-remb",
+  "name": "rsp-remake",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "cd ./script && make"
+    "start": "cd ./script && bash init.sh"
   },
   "author": "@ropsoft",
   "license": "ISC",
