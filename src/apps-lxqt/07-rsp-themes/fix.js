@@ -13,4 +13,13 @@ rsp.exec(`cp -rf ${rootd}/asset/themes/* ${rootd}/proj/themes`)
 rsp.exec(`cp -rf ${rootd}/asset/palettes/* ${rootd}/proj/palettes`)
 rsp.exec(`cp -rf ${rootd}/asset/wallpapers/* ${rootd}/proj/wallpapers`)
 
+rsp.exec(`rm -rf ${rootd}/proj/themes/kvantum`)
+rsp.exec(`rm -rf ${rootd}/proj/themes/Valendas`)
+rsp.exec(`rm -rf ${rootd}/proj/themes/Clearlooks`)
+rsp.exec(`rm -rf ${rootd}/proj/themes/Silver-bright`)
+
+rsp.exec("sudo rm -rf /usr/local/share/rsp/themes");
+rsp.exec("sudo rm -rf /usr/local/share/rsp/palettes");
+rsp.exec("sudo rm -rf /usr/local/share/rsp/wallpapers");
+
 process.exit(0);

@@ -7,7 +7,7 @@ const fs = require('fs')
 const rsp = new RSp()
 
 const rootDir = path.resolve(__dirname, '..');
-const appsDirPath = path.resolve(rootDir, 'src', 'applications');
+const appsDirPath = path.resolve(rootDir, 'src', 'apps');
 const depsDir = fs.readdirSync(appsDirPath).filter((dirItem) => {
     return !dirItem.includes('@lxqt');
 })

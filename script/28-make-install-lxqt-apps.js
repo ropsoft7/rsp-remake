@@ -7,7 +7,7 @@ const fs = require('fs')
 const rsp = new RSp()
 
 const rootDir = path.resolve(__dirname, '..');
-const appsLxqtDirPath = path.resolve(rootDir, 'src', 'applications', '@lxqt');
+const appsLxqtDirPath = path.resolve(rootDir, 'src', 'apps-lxqt');
 const depsLxqtDir = fs.readdirSync(appsLxqtDirPath)
 
 depsLxqtDir.forEach((dir) => {
@@ -16,6 +16,6 @@ depsLxqtDir.forEach((dir) => {
 
     console.log('lxqtAppDir', lxqtAppDir)
 
-    rsp.exec(`cd ${lxqtAppDir} && make fetch && make`)
+    rsp.exec(`cd ${lxqtAppDir} && make deps && make`)
     
 });

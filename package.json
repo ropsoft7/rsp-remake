@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "cd ./script && bash init.sh"
+    "start": "node start.js"
   },
   "author": "@ropsoft",
   "license": "ISC",

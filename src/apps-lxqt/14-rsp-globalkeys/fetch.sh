@@ -7,9 +7,9 @@ sleep 3;
 
 rm -rf ./proj
 
-git clone https://github.com/lxqt/lxqt-globalkeys.git
+git clone https://github.com/rsp/rsp-globalkeys.git
 
-mv lxqt-globalkeys proj
+mv rsp-globalkeys proj
 
 ls ./proj
 

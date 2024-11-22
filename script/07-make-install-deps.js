@@ -7,10 +7,7 @@ const fs = require('fs')
 const rsp = new RSp()
 
 const rootDir = path.resolve(__dirname, '..');
-const depsDirPath = path.resolve(rootDir, 'src', 'depends');
-const depsDir = fs.readdirSync(depsDirPath).filter((dirItem) => {
-    return !dirItem.includes('@lxqt');
-})
+const depsDirPath = path.resolve(rootDir, 'src', 'deps');
 
 depsDir.forEach((dir) => {
     
