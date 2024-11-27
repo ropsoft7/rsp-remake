@@ -5,8 +5,10 @@ HERE="`dirname "$HERE_WRAPPER"`"
 
 cd $HERE/proj
 
-rm -rf build;
+rm -rf build
+mkdir build
+cd build
 
-meson build && nice -10 ninja -C build && sudo ninja -C build install
+cmake .. --fresh && nice -10 make && sudo make install
 
 exit 0;

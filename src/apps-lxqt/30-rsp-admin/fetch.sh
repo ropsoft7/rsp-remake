@@ -5,9 +5,9 @@ echo Tap CONTROL + C to cancel it now!
 
 rm -rf ./proj
 
-git clone https://github.com/swaywm/swaylock.git
+git clone https://github.com/lxqt/lxqt-admin.git
 
-mv swaylock proj
+mv lxqt-admin proj
 
 ls ./proj
 

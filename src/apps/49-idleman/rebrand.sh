@@ -5,9 +5,9 @@ HERE="`dirname "$HERE_WRAPPER"`"
 
 cd $HERE/proj
 
-/usr/local/bin/rsp.projectRebrandir swaylock screenlock
-/usr/local/bin/rsp.projectRebrandir Swaylock Screenlock
-/usr/local/bin/rsp.projectRebrandir SWAYLOCK SCREENLOCK
+/usr/local/bin/rsp.projectRebrandir swayidle idleman
+/usr/local/bin/rsp.projectRebrandir Swayidle Idleman
+/usr/local/bin/rsp.projectRebrandir SWAYIDLE IDLEMAN
 
 /usr/local/bin/rsp.projectRebrandir sway compify
 /usr/local/bin/rsp.projectRebrandir Sway Compify
