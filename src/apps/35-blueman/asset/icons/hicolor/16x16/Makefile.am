@@ -1,0 +1,4 @@
+SUBDIRS = 	\
+	devices	\
+	status  \
+	apps

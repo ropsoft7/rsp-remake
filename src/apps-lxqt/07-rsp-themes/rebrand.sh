@@ -5,12 +5,8 @@ HERE="`dirname "$HERE_WRAPPER"`"
 
 cd $HERE/proj
 
-/usr/local/bin/rsp.projectRebrandir Grayland Grayland
-/usr/local/bin/rsp.projectRebrandir Grayland Grayland
-/usr/local/bin/rsp.projectRebrandir Plasma Plasma
-/usr/local/bin/rsp.projectRebrandir Arch Arch
-/usr/local/bin/rsp.projectRebrandir System System
-/usr/local/bin/rsp.projectRebrandir Silver Silver
+/usr/local/bin/rsp.projectRebrandir system System
+/usr/local/bin/rsp.projectRebrandir silver Silver
 /usr/local/bin/rsp.projectRebrandir light Light
 /usr/local/bin/rsp.projectRebrandir frost Frost
 /usr/local/bin/rsp.projectRebrandir dark Dark
@@ -22,12 +18,11 @@ cd $HERE/proj
 
 /usr/local/bin/rsp.projectRebrandir labwc compify
 /usr/local/bin/rsp.projectRebrandir Labwc Compify
-/usr/local/bin/rsp.projectRebrandir LABWc COMPIFy
 /usr/local/bin/rsp.projectRebrandir LABWC COMPIFY
 
 /usr/local/bin/rsp.projectRebrandir tweaks config
-/usr/local/bin/rsp.projectRebrandir Tweaks config
-/usr/local/bin/rsp.projectRebrandir TWEAKS config
+/usr/local/bin/rsp.projectRebrandir Tweaks Config
+/usr/local/bin/rsp.projectRebrandir TWEAKS CONFIG
 
 exit 0;
 
