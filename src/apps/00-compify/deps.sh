@@ -21,4 +21,4 @@ sudo apt install -y libxdg-basedir-dev
 sudo apt install -y drm-info
 sudo apt install -y libwlroots-dev
 
-exit 0
+exit 0;

@@ -5,12 +5,12 @@ HERE="`dirname "$HERE_WRAPPER"`"
 
 cd $HERE/proj
 
-/usr/local/bin/rsp.projectRebrandir ambiance Grayland
-/usr/local/bin/rsp.projectRebrandir Ambiance Grayland
-/usr/local/bin/rsp.projectRebrandir KDE-Plasma Plasma
-/usr/local/bin/rsp.projectRebrandir Arch-Colors Arch
-/usr/local/bin/rsp.projectRebrandir system System
-/usr/local/bin/rsp.projectRebrandir silver Silver
+/usr/local/bin/rsp.projectRebrandir Grayland Grayland
+/usr/local/bin/rsp.projectRebrandir Grayland Grayland
+/usr/local/bin/rsp.projectRebrandir Plasma Plasma
+/usr/local/bin/rsp.projectRebrandir Arch Arch
+/usr/local/bin/rsp.projectRebrandir System System
+/usr/local/bin/rsp.projectRebrandir Silver Silver
 /usr/local/bin/rsp.projectRebrandir light Light
 /usr/local/bin/rsp.projectRebrandir frost Frost
 /usr/local/bin/rsp.projectRebrandir dark Dark
