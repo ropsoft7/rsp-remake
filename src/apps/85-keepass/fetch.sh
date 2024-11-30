@@ -3,20 +3,20 @@
 echo Deleting existing ./proj directory within 7sec...
 echo Tap CONTROL + C to cancel it now!
 
-sleep 3;
+sleep 7;
 
 rm -rf ./proj
 
-git clone https://github.com/lxqt/lxqt-config.git
+git clone ~GIT_URL~.git
 
-mv lxqt-config proj
+mv ~ORIG_PROJ_NAME~ proj
 
 cd proj
 
-git checkout 2.1.0
-git switch -C 2.1.0
+# git checkout 2.1.0
+# git switch -C 2.1.0
 
-cd ..;
+# cd ..;
 
 ls ./proj
 

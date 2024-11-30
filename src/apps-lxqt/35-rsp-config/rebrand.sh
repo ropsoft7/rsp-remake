@@ -10,4 +10,6 @@ cd $HERE/proj
 /usr/local/bin/rsp.projectRebrandir LXQt RSp
 /usr/local/bin/rsp.projectRebrandir LXQT RSP
 
+/usr/local/bin/rsp.projectRebrandir brightnesssettings.svg brightnesssettings.png
+
 exit 0;
